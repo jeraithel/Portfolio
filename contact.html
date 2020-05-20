@@ -22,6 +22,7 @@
                 // generate the contact number value
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('contact_service', 'contact_form', this);
+                alert("Thank you for contacting me. I'll be in touch soon!")
             });
         }
     </script>
@@ -83,14 +84,14 @@
                     </div>
                     <div class="form-group">
                         <label>E-mail</label>
-                        <input type="text" class="form-control" name="name">
+                        <input type="text" class="form-control" name="email">
                     </div>
                     <div class="form-group">
                         <label>Message</label>
                         <textarea name="message" rows=6 class="form-control">
                     </textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+                    <button type="submit" class="btn btn-primary" value="Send" id="send">Submit</button>
                 </form>
             </div>
         </div>

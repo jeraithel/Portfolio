@@ -1,3 +1,3 @@
-# Bootstrap-Portfolio
+# Portfolio
 
 Deployed: https://jeraithel.github.io/Portfolio/
