@@ -23,6 +23,7 @@
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('contact_service', 'contact_form', this);
                 alert("Thank you for contacting me. I'll be in touch soon!")
+                document.getElementById('contact-form').reset();
             });
         }
     </script>
